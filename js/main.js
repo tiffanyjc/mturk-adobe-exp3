@@ -26,6 +26,7 @@ function addImage(e) {
         document.getElementById('pic').value = document.getElementById('imgUrl').value;
         document.getElementById('next').disabled = false; 
         document.getElementById('next').style.opacity = 1; 
+        document.getElementById('imgUrl').style.border = "1px solid green";
     }
     e.preventDefault();
 }
