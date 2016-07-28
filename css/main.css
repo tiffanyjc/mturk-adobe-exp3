@@ -197,6 +197,7 @@ input[type=range]:hover {
     color: #fff;
     margin: 0 10px 10px 0px;
     border: 2px solid transparent;
+    opacity: .6; 
 }
 
 #reset:hover, #next:hover {

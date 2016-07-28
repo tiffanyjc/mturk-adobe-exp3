@@ -24,6 +24,8 @@ function addImage(e) {
     if (imgUrl.length) {
         $("#imageContainer img").attr("src", imgUrl);
         document.getElementById('pic').value = document.getElementById('imgUrl').value;
+        document.getElementById('next').disabled = false; 
+        document.getElementById('next').style.opacity = 1; 
     }
     e.preventDefault();
 }
