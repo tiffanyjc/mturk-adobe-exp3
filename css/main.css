@@ -85,6 +85,7 @@ form {
     outline: none;
     border: 2px solid red; 
     box-sizing: border-box;
+    background-color: aliceblue; 
 }
 
 .url-box::-webkit-input-placeholder {
