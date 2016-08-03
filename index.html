@@ -56,51 +56,63 @@
                 <p>
                     <label for="gs">Grayscale</label>
                     <input id="gs" name="gs" type="range" min=0 max=100 value=0 onclick="increaseClick()">
+                    <span id="gsValue">Na</span>
                 </p>
 
                 <p>
                     <label for="blur">Blur</label>
                     <input id="blur" name="blur" type="range" min=0 max=10 value=0 onclick="increaseClick()">
+                    <span id="blurValue">Na</span>
                 </p>
 
                 <p>
                     <label for="br">Brightness</label>
                     <input id="br" name="br" type="range" min=0 max=200 value=100 onclick="increaseClick()">
+                    <span id="brValue">Na</span>
                 </p>
 
                 <p>
                     <label for="ct">Contrast</label>
                     <input id="ct" name="ct" type="range" min=0 max=200 value=100 onclick="increaseClick()">
+                    <span id="ctValue">Na</span>
                 </p>
 
                 <p>
                     <label for="huer">Hue Rotate</label>
                     <input id="huer" name="huer" type="range" min=0 max=360 value=0 onclick="increaseClick()">
+                    <span id="huerValue">Na</span>
                 </p>
 
                 <p>
                     <label for="opacity">Opacity</label>
                     <input id="opacity" name="opacity" type="range" min=0 max=100 value=100 onclick="increaseClick()">
+                    <span id="opacityValue">Na</span>
                 </p>
 
                 <p>
                     <label for="invert">Invert</label>
                     <input id="invert" name="invert" type="range" min=0 max=100 value=0 onclick="increaseClick()">
+                    <span id="invertValue">Na</span>
                 </p>
 
                 <p>
                     <label for="saturate">Saturate</label>
                     <input id="saturate" name="saturate" type="range" min=0 max=500 value=100 onclick="increaseClick()">
+                    <span id="saturateValue">Na</span>
                 </p>
 
                 <p>
                     <label for="sepia">Sepia</label>
                     <input id="sepia" name="sepia" type="range" min=0 max=100 value=0 onclick="increaseClick()">
+                    <span id="sepiaValue">Na</span>
                 </p>
 
                 <input type="button" form="imageEditor" id="next" value="Next" onclick="nextPage()" disabled />
 
-
+            <button id="submit" class="button-success pure-button button-xlarge" onclick="makeid()">
+                    <i class="fa fa-paper-plane"></i>
+                    &nbsp;Submit
+                </button>
             </div>	
 
 
@@ -425,10 +437,7 @@
             </div>
 
 
-            <button id="submit" class="button-success pure-button button-xlarge" onclick="makeid()" disabled>
-                <i class="fa fa-paper-plane"></i>
-                &nbsp;Submit
-            </button>
+
         </form>
 
         <!--  Thankyou Message People See when they submit the form: -->

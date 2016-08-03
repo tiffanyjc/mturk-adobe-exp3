@@ -52,6 +52,16 @@ function editImage() {
     var invert = $("#invert").val(); //invert
     var saturate = $("#saturate").val(); //saturate
     var sepia = $("#sepia").val(); //sepia
+    
+    document.getElementById('gsValue').innerHTML = gs; 
+    document.getElementById('blurValue').innerHTML = blur; 
+    document.getElementById('brValue').innerHTML = br; 
+    document.getElementById('ctValue').innerHTML = ct; 
+    document.getElementById('huerValue').innerHTML = huer; 
+    document.getElementById('opacityValue').innerHTML = opacity; 
+    document.getElementById('invertValue').innerHTML = invert; 
+    document.getElementById('saturateValue').innerHTML = saturate; 
+    document.getElementById('sepiaValue').innerHTML = sepia; 
 
     $("#imageContainer img").css("filter", 'grayscale(' + gs+
                                  '%) blur(' + blur +

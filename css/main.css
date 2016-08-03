@@ -294,11 +294,11 @@ body {
     left: 150px; 
 }
 #submit {
-    display: none;
+/*    display: none;*/
     position: fixed; 
     bottom: 15px; 
     right: 10px; 
-    opacity: .6;
+/*    opacity: .6;*/
 }
 
 .button-success {
